@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="bank.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+</head>
+<body>
+
+  <div class="header">
+    <div>
+    <a href="index.html" class="logo-link">
+      <img src="hm-new-logo_white.png" alt="Logo" class="logo-img">
+    </a>
+  </div>
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="highs.html">Highscores</a></li>
+        <li><a href="help.html">Help</a></li>
+    </ul>
+  </nav>
+  </div>
+
+      <div class="video-container">
+        <video width="1500" height="600" autoplay muted loop>
+            <source src="The Walk.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <h1>Welcome to Hangman!</h1>
+            <p>A game where we test your lexical intelligence</p>
+          </div>
+            <button class="play-button" id="playNowButton">Play Now</button>
+            <script>
+              document.getElementById("playNowButton").addEventListener("click", function() {
+                window.location.href = "https://taha007860.github.io/Hangman/"; 
+              });
+            </script>
+        
+      <div class="footer">
+        <p>&copy; Our final project, submitted to the IEEE committee</p>
+      </div>
+</body>
+</html>
